@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+h2{
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 50px;
+    color: #fff;
+}
+h3{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #fff;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+#header{
+    width: 100%;
+    float: left;
+}
+nav{
+    width: 100%;
+    float: left;
+    background-color: #303030;
+}
+.logo{
+    width: 20%;
+    float: left;
+    padding: 20px;
+}
+.manu{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+}
+.manu li{
+    display: inline-block;
+    padding: 20px;
+}
+.manu a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.search{
+    text-align: end;
+    padding: 40px;
+}
+.hero-part{
+    background-image: url(Musicology-03.png);
+    background-size: cover;
+}
+.hero-part h1{
+    margin-top: 50px;
+    padding-top: 370px;
+    font-size: 110px;
+    font-weight: 600;
+    color: #fff;
+}
+.hero-part p{
+    width: 30%;
+    float: left;
+    font-size: 22px;
+    color: #fff;
+}
+.hero-part a button{
+    width: 14%;
+    background-color: #e8631c;
+    color: #fff;
+    margin: 40px 0px 85px;
+    padding: 15px;
+    transition: ease-in-out .08s;
+}
+.hero-part a button:hover{
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px;
+}
+/* tour */
+#tour{
+    width: 100%;
+    float: left;
+    background-color: #e8631c;
+    background-image: url(Musicology-07.png);
+    /* background-size: cover; */
+}
+.tour-writing{
+    width: 100%;
+    text-align: center;
+}
+.tour-writing p{
+    font-size: 28px;
+    padding: 30px;
+    width: 50%;
+    margin: auto;
+}
+.tour-box-part{
+    margin: 35px 0px;
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+.tour-box{
+    width: 30%;
+    float: left;
+    margin: 20px;   
+    background-color: #303030;
+}
+.tour-box img{
+    width: 100%;
+}
+.box-p{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+/* pricing */
+#pricing{
+    width: 100%;
+    float: left;
+    background-color: #303030;
+    background-image: url(Musicology-07.png);
+}
+.pricing-writing{
+    width: 100%;
+    text-align: center;
+}
+.pricing-writing p{
+    font-size: 28px;
+    padding: 30px;
+    width: 50%;
+    margin: auto;
+}
+.pricing-box-part{
+    width: 100%;
+    float: left;
+    margin-top: 35px;
+    padding: 20px;
+}
+.pricing-box{
+    width: 30%;
+    float: left;
+    margin: 20px;  
+    background-color: #e8631c;
+}
+.pricing-box img{
+    padding: 50px 140px;
+}
+.pricing-box h1,p{
+    text-align: center;
+    margin: auto;
+}
+.pricing-box a button{
+    width: 80%;
+    background-color: #303030;
+    color: #fff;
+    margin:  40px 0px 40px;
+    padding: 15px;
+}
